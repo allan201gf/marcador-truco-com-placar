@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("fundoblack.jpg");;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 480px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.calculadora{
+  width: 100%;
+}
+
+.pontos1, .pontos2{
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  color: rgb(78, 78, 78);
+}
+
+.btn{
+  width: 100%;
+  height: 40px;
+  font-size: 1em;
+  border: none;
+  background: rgb(214, 214, 214);
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgb(148, 148, 148);
+}
+
+.assinatura{
+  text-align: right;
+  font-size: 0.7em;
+  margin: 0px;
+  color:rgb(148, 148, 148);
+  font-weight: bold;
+}
+
+.ganhador{
+  color:rgb(255, 0, 0);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.titulo {
+  color:rgb(78, 78, 78);
+  text-align: center;
+}
+
+.total {
+  color:rgb(78, 78, 78);
+  text-align: center;
+  font-size: 35px;
+}
